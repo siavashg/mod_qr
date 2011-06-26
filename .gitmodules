@@ -1,0 +1,3 @@
+[submodule "lib/hiredis"]
+	path = lib/hiredis
+	url = https://github.com/antirez/hiredis.git
