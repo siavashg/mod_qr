@@ -3,7 +3,7 @@ ACLOCAL_AMFLAGS= -I m4
 lib_LTLIBRARIES = libmod_qr.la
 
 ## Define the source file for the module
-libmod_qr_la_SOURCES = mod_qr.c qr_generator.c lookup3.c
+libmod_qr_la_SOURCES = src/mod_qr.c src/qr_generator.c src/lookup3.c
 
 ## Define that an include directory is required.
 INCLUDES = -I@apache_dir@/include 
