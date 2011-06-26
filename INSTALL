@@ -1,0 +1,12 @@
+Requires:
+libpng, libqrencode
+i.e: sudo apt-get install libpng12-dev libqrencode-dev
+
+Install:
+libtoolize
+aclocal
+autoconf
+automake -a
+./configure --with-apache=/path/to/apache2
+make
+/path/to/apache2/bin/apxs -i -a -n qr libmod_qr.la
