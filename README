@@ -1,1 +1,4 @@
-QR code generator for Apache
+QR-code generator module for Apache.
+Previously used at lilqr.com
+
+See INSTALL for installation instruction

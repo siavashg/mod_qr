@@ -1,8 +1,13 @@
 Requires:
 libpng, libqrencode
-i.e: sudo apt-get install libpng12-dev libqrencode-dev
 
-Install:
+On Debian:
+sudo apt-get install libpng12-dev libqrencode-dev
+
+BUILD AND INSTALL
+
+cd mod_qr
+
 libtoolize
 aclocal
 autoconf
