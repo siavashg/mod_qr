@@ -135,17 +135,6 @@ static int createPNG(QRcode *qrcode, struct mem_encode *state)
 	png_write_end(png_ptr, info_ptr);
 	png_destroy_write_struct(&png_ptr, &info_ptr);
 
-	/*
-	int i;
-	for (i = 0; i < state.size; i++) {
-		if (state.buffer[i] != '\0')
-			printf("%c", state.buffer[i]);
-		else
-			printf(" ");
-	}
-	*/
-	// fprintf(stderr, "Size is now: %d.\n", (int)state->size);
-	
 	free(row);
 
 	return 0;
