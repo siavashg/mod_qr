@@ -1,4 +1,4 @@
-QR-code generator module for Apache.
+Apache module to generate QR codes.
 Previously used at lilqr.com
 
 See INSTALL for installation instruction
